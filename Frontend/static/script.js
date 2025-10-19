@@ -195,7 +195,7 @@ function validateAndSubmit() {
 // Gửi dữ liệu lên backend
 async function submitToBackend() {
   try {
-    const res = await fetch("/predict", {
+    const res = await fetch("https://stronkepredict.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(answers),
