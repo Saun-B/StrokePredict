@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <header>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <!-- Logo-->
+        <div class="logo">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" width="50" height="50"> 
+            <span class="site-title">StrokePredict</span>
+        </div>
+
+        <!-- Navigation menu-->
+        <nav>
+            <ul>
+                <li><a href="#intro1">Giới thiệu</a></li>
+                <li><a href="#causes">Nguyên nhân</a></li>
+                <li><a href="#prevention">Phòng ngừa</a></li>
+                <li><a href="#predict">Dự đoán</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <section class="stroke-hero">
+            <div class="content">
+                <h1 class="main-title">
+                <span style="--i:1">S</span><span style="--i:2">t</span><span style="--i:3">r</span><span style="--i:4">o</span><span style="--i:5">k</span><span style="--i:6">e</span>
+                <span style="--i:7">P</span><span style="--i:8">r</span><span style="--i:9">e</span><span style="--i:10">d</span><span style="--i:11">i</span><span style="--i:12">c</span><span style="--i:13">t</span>
+                <span style="--i:14"> </span>
+                <br>
+                <span style="--i:15"> </span><span style="--i:16">D</span><span style="--i:17">ự</span><span style="--i:18"> </span>
+                <span style="--i:19">á</span><span style="--i:20">n</span><span style="--i:21"> </span>
+                <span style="--i:22">C</span><span style="--i:23">h</span><span style="--i:24">ẩ</span><span style="--i:25">n</span>
+                <span style="--i:26"> </span><span style="--i:27">Đ</span><span style="--i:28">o</span><span style="--i:29">á</span><span style="--i:30">n</span>
+                <span style="--i:31"> </span><span style="--i:32">Đ</span><span style="--i:33">ộ</span><span style="--i:34">t</span>
+                <span style="--i:35"> </span><span style="--i:36">Q</span><span style="--i:37">u</span><span style="--i:38">ỵ</span>
+                </h1>
+
+                <p class="sub-text">
+                Ứng dụng trí tuệ nhân tạo trong dự đoán và phòng ngừa nguy cơ đột quỵ sớm.
+                </p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">AI Model</span>
+                        <span class="stat-label">Công nghệ dự đoán</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2025</span>
+                        <span class="stat-label">Năm phát triển</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Health Data</span>
+                        <span class="stat-label">Nguồn dữ liệu y tế</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visual">
+                <div class="stroke-slogan-box">
+                <p class="slogan-text">
+                    “Sức khỏe là tài sản quý giá nhất — hãy bảo vệ nó trước khi quá muộn.”
+                </p>
+                <span class="slogan-author">- StrokePredict Team</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Nền toàn trang-->
+        <div class="background">
+
+            <!-- Các khung nội dung-->
+            <section id="intro1" class="content-box">
+                <h2>Giới thiệu về bệnh đột quỵ</h2>
+                <ul>
+                    <li>Đột quỵ (hay còn gọi là tai biến mạch máu não) là tình trạng não bị tổn thương đột ngột do máu không thể lưu thông bình thường lên não. Khi máu không tới được, các tế bào thần kinh bị thiếu oxy và dưỡng chất, dẫn đến chết dần chỉ sau vài phút.</li>
+                    <li>Nếu không được cấp cứu kịp thời, người bệnh có thể tử vong hoặc bị liệt, mất trí nhớ, nói khó, giảm thị lực... suốt đời.</li>
+                </ul>
+                <h3>Có hai loại đột quỵ chính</h3>
+                <div class="stroke-types">
+                    <div class="stroke-box">
+                        <h4>Đột quỵ do tắc mạch (nhồi máu não)</h4>
+                        <p>Xảy ra khi một cục máu đông hoặc mảng xơ vữa làm tắc nghẽn mạch máu nuôi não. Đây là dạng phổ biến nhất, chiếm khoảng 80% tổng số ca đột quỵ.</p>
+                    </div>
+
+                    <div class="stroke-box">
+                        <h4>Đột quỵ do vỡ mạch (xuất huyết não)</h4>
+                        <p>Xảy ra khi mạch máu trong não bị vỡ, gây chảy máu bên trong hoặc xung quanh não. Dạng này thường nguy hiểm và có tỷ lệ tử vong cao hơn.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section  id="causes" class="content-box">
+                <h2>Nguyên nhân và thói quen dễ dẫn đến đột quỵ</h2>
+                <ul>
+                    <li>Đột quỵ không xảy ra ngẫu nhiên — nó là kết quả của nhiều yếu tố nguy cơ và những thói quen sinh hoạt không lành mạnh tích lũy theo thời gian. Việc hiểu rõ các nguyên nhân gây ra đột quỵ giúp chúng ta chủ động phòng ngừa, giảm thiểu rủi ro và bảo vệ sức khỏe não bộ hiệu quả hơn.</li>
+                    <li>Có nhiều yếu tố góp phần làm tăng nguy cơ đột quỵ, tuy nhiên chúng ta có thể phân loại chúng thành hai nhóm chính để dễ theo dõi và kiểm soát.</li>
+                </ul>
+
+                <div class="cause-box">
+                    <h3>Nguyên nhân bệnh lí</h3>
+                    <ul>
+                        <li><strong>Huyết áp cao:</strong> là yếu tố nguy cơ hàng đầu. Huyết áp tăng lâu ngày làm tổn thương thành mạch máu, khiến chúng yếu và dễ vỡ, dẫn đến đột quỵ.</li>
+                        <li><strong>Bệnh tim mạch:</strong> như rung nhĩ, suy tim hoặc hẹp van tim có thể hình thành cục máu đông trong tim, sau đó di chuyển lên não gây tắc nghẽn.</li>
+                        <li><strong>Bệnh tiểu đường:</strong> làm tổn thương hệ thống mạch máu nhỏ và làm tăng xơ vữa động mạch, cản trở lưu thông máu lên não.</li>
+                        <li><strong>Mỡ máu cao:</strong> dẫn đến tích tụ mảng xơ vữa trong động mạch, khiến mạch máu hẹp và giảm lưu lượng máu nuôi dưỡng não.</li>
+                    </ul>
+                </div>
+
+                <div class="cause-box">
+                    <h3>Nguyên nhân do lối sống</h3>
+                    <ul>
+                        <li><strong>Hút thuốc lá:</strong> làm giảm oxy trong máu, tăng huyết áp và làm hẹp các mạch máu.</li>
+                        <li><strong>Uống nhiều rượu bia:</strong> gây rối loạn nhịp tim, tăng nguy cơ hình thành cục máu đông và làm tổn thương gan - cơ quan liên quan đến điều hòa máu.</li>
+                        <li><strong>Lười vận động, béo phì:</strong> khiến tuần hoàn máu kém, làm tăng huyết áp và cholesterol xấu.</li>
+                        <li><strong>Căng thẳng, thiếu ngủ kéo dài:</strong> làm tăng hormone stress, khiến tim và mạch máu hoạt động bất thường.</li>
+                        <li><strong>Thức khuya, ăn uống thất thường:</strong> ảnh hưởng đến trao đổi chất, gây rối loạn huyết áp và tăng nguy cơ mắc bệnh tim mạch.</li>
+                    </ul>
+                </div>
+
+                <p>Nhiều người trẻ hiện nay cũng có nguy cơ đột quỵ sớm do thói quen sống thiếu khoa học như thức khuya, căng thẳng kéo dài, sử dụng chất kích thích, và không kiểm tra sức khỏe định kỳ. Việc thay đổi lối sống lành mạnh từ sớm là yếu tố then chốt giúp phòng tránh đột quỵ hiệu quả.</p>
+            </section>
+
+            <section id="prevention" class="content-box">
+                <h2>Cách phòng tránh đột quỵ</h2>
+                <p>"Phòng ngừa luôn tốt hơn chữa trị". Để giảm nguy cơ đột quỵ, cần xây dựng lối sống lành mạnh và theo dõi sức khỏe thường xuyên</p>
+                <ul>
+                    <li>Kiểm soát huyết áp: Đo huyết áp định kỳ, giữ mức ổn định dưới 130/80 mmHg.</li>
+                    <li>Ăn uống khoa học: Hạn chế muối, đường, đồ chiên rán. Ăn nhiều rau xanh, cá, hoa quả tươi.</li>
+                    <li>Tập thể dục đều đặn: Dành ít nhất 30 phút mỗi ngày để đi bộ, bơi, đạp xe hoặc tập yoga.</li>
+                    <li>Không hút thuốc, hạn chế rượu bia.</li>
+                    <li>Giữ tinh thần thoải mái: Tránh stess, ngủ đủ giấc, giữ tâm lý ổn định.</li>
+                    <li>Khám sức khỏe định kỳ: Phát hiện sớm bệnh tim mạch, tiểu đường, mỡ máu... để điều trị kịp thời.</li>
+                </ul>
+                <h3>Dấu hiệu cảnh báo sớm đột quỵ</h3>
+                <p>Nếu thấy ai có một trong những dấu hiệu sau, hãy đưa đi cấp cứu ngay:</p>
+                <ul>
+                    <li>Méo miệng, cười lệch.</li>
+                    <li>Yếu hoặc tê một bên tay, chân.</li>
+                    <li>Nói khó, nói ngọng hoặc không hiểu lời người khác.</li>
+                    <li>Mờ mắt, mất thị lực tạm thời.</li>
+                    <li>Chóng mặt, mất thăng bằng, đau đầu dữ dội đột ngột.</li>
+                </ul>
+                <p>Thời gian là yếu tố quyết định sự sống còn. Càng đưa đi viện sớm, khả năng hồi phục càng cao.</p>
+            </section>
+
+            <section id="predict" class="content-box">
+                <h2>Dự đoán nguy cơ đột quỵ</h2>
+                <p>Chúng tôi đã phát triển một hệ thống hỗ trợ chẩn đoán nguy cơ đột quỵ dựa trên cơ sở dữ liệu y học và trí tuệ nhân tạo chuyên gia. Với mục tiêu "phòng bệnh hơn chữa bệnh", hệ thống giúp bạn đánh giá sớm nguy cơ sức khỏe để chủ động bảo vệ bản thân.</p>
+                
+                <div id="intro" class="box">
+                    <h3>Bạn có muốn thực hiện bài kiểm tra sức khỏe cá nhân ngay bây giờ không?</h3>
+
+                    <!-- Nút start-->
+                    <div id="start-section">
+                        <button id="start-btn">Dự đoán</button>
+                    </div>
+                </div>
+
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+
+                <div id="form-container" style="display: none;"></div>
+
+                <div id="submit-area" style="display: none;">
+                    <button id="submit-btn">Gửi dự đoán</button>
+                </div>
+            </section>
+
+            <section id="result-section" class="content-box" style="display: none;">
+                <div id="result"></div>
+            </section>
+
+        </div>
+        
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column1">
+                    <h3>StrokePredict</h3>
+                    <ul>
+                        <li><a href="#intro1">Giới thiệu</a></li>
+                        <li><a href="#causes">Nguyên nhân</a></li>
+                        <li><a href="#prevention">Phòng ngừa</a></li>
+                        <li><a href="#predict">Dự đoán</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Nguồn dữ liệu tham khảo</h3>
+                    <ul>
+                        <li><a href="https://pubmed.ncbi.nlm.nih.gov/14718319/" target="_blank">D'Agostino, R. B., et al. (2004)</a></li>
+                        <li><a href="https://www.ahajournals.org/doi/10.1161/01.str.28.7.1507" target="_blank">American Heart Association (AHA)</a></li>
+                        <li><a href="https://www.cdc.gov/stroke/risk-factors/index.html" target="_blank">Centers for Disease Control and Prevention 2023 (CDC)</a></li>
+                        <li><a href="https://www.stroke.org.uk/stroke/types/risk-factors">Stroke Association (2023)</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Tuyên bố & Miễn trừ trách nhiệm</h3>
+                    <p>
+                        Hệ thống này chỉ nhằm mục đích học tập và tham khảo, 
+                        không được sử dụng như công cụ chẩn đoán y tế chính thức.
+                        Nếu bạn nghi ngờ có vấn đề sức khỏe, vui lòng đến cơ sở y tế
+                        hoặc gặp bác sĩ chuyên môn để được tư vấn và kiểm tra.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Dự án StrokePredict. All rights reserved.</p>
+            </div>
+
+        </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>
