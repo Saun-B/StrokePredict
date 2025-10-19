@@ -1,7 +1,9 @@
+from flask_cors import CORS
 from flask import Flask, render_template, request, jsonify
 from Backend.rules import evaluate_risk, get_advice
 
 app = Flask(__name__, template_folder='frontend/templates', static_folder='frontend/static')
+CORS(app)
 
 @app.route('/')
 def home():
