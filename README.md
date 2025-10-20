@@ -153,7 +153,7 @@ Mở **Terminal / Git Bash** và chạy lệnh sau:
 
 ```bash
 git clone https://github.com/Saun-B/StronkePredict
-cd StrokePredict
+cd StronkePredict
 ```
 
 ## 4.2. Cài đặt Backend (API – Bộ não)
@@ -195,7 +195,7 @@ python app.py
 
 ## 4.3. Chạy Frontend (Web – Giao diện)
 
-1. Mở thư mục dự án (vd: `StrokePredict`) bằng **VS Code**.
+1. Mở thư mục dự án (vd: `StronkePredict`) bằng **VS Code**.
 2. Vào thư mục `docs/`, tìm file `index.html`.
 3. Chuột phải → **Open with Live Server**.
 4. Trình duyệt sẽ mở tại: [**http://127.0.0.1:5500**](http://127.0.0.1:5500/) (hoặc cổng khác).
@@ -255,4 +255,5 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
