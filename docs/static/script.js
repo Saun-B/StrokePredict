@@ -10,7 +10,7 @@ const questions = [
       { label: "Nữ", value: "Female" },
     ],
   },
-  { key: "height", question: "Chiều cao của bạn (m):", type: "number" },
+  { key: "height", question: "Chiều cao của bạn (vd: 1,6/1.6 m):", type: "number" },
   { key: "weight", question: "Cân nặng của bạn (kg):", type: "number" },
   {
     key: "hypertension",
