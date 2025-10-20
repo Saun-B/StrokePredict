@@ -109,7 +109,7 @@ StrokePredict/
 
 Người dùng cung cấp một số thông tin sức khỏe cơ bản: tuổi, giới tính, cân nặng, chiều cao, tình trạng cao huyết áp, bệnh tim, tiểu đường, hút thuốc, thói quen tập luyện.
 
-- Nếu thiếu dữ liệu, hệ thống tự điền **giá trị mặc định** (ví dụ: tuổi = 30, BMI = 22).
+- Nếu thiếu dữ liệu, hệ thống yêu cầu người dùng phải nhập tất cả những dữ liệu còn sót.
 - Hệ thống cũng tính toán thêm chỉ số BMI bằng công thức:
 
 $$
@@ -255,6 +255,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
 
