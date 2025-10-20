@@ -38,7 +38,7 @@ Cốt lõi của dự án là một **Hệ chuyên gia (Rule-Based AI)** đượ
 StrokePredict/
 ├── Backend/
 │   ├── rules.json     # (File JSON chứa bộ luật chuyên gia)
-│   └── [rules.py](http://rules.py/)       # (File Python xử lý logic đọc và áp dụng luật)
+│   └── rules.py       # (File Python xử lý logic đọc và áp dụng luật)
 │
 ├── docs/              # (Thư mục chứa Frontend cho GitHub Pages)
 │   ├── static/
@@ -48,11 +48,11 @@ StrokePredict/
 │   │   └── brain.png
 │   └── index.html     # (Trang web chính)
 │
-├── [app.py](http://app.py/)             # (File server Backend - API Flask)
+├── app.py             # (File server Backend - API Flask)
 ├── requirements.txt   # (Các thư viện Python cần thiết cho Backend)
 ├── Procfile           # (Cấu hình deploy cho Render)
 ├── .gitignore         # (File bỏ qua các file không cần thiết)
-└── [README.md](http://readme.md/)          # (File tài liệu bạn đang đọc)
+└── README.md          # (File tài liệu bạn đang đọc)
 ```
 
 ## 3.2. Kiến trúc hệ thống
@@ -152,7 +152,7 @@ Sau khi xác định được mức nguy cơ (Low, Medium, High), hệ thống g
 Mở **Terminal / Git Bash** và chạy lệnh sau:
 
 ```bash
-git clone [Dán link repo GitHub của bạn vào đây]
+git clone https://github.com/Saun-B/StronkePredict
 cd StrokePredict
 ```
 
@@ -255,3 +255,4 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
