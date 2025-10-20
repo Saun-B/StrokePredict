@@ -166,7 +166,7 @@ Phần này sẽ chạy **server API** (`app.py`) trên máy.
 python -m venv venv
 ```
 
-1. **Kích hoạt môi trường ảo:**
+2. **Kích hoạt môi trường ảo:**
 - Windows:
     
     ```bash
@@ -179,13 +179,13 @@ python -m venv venv
     source venv/bin/activate
     ```
     
-1. **Cài đặt thư viện:**
+3. **Cài đặt thư viện:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-1. **Chạy server:**
+4. **Chạy server:**
 
 ```bash
 python app.py
@@ -228,7 +228,7 @@ fetch('http://127.0.0.1:5000/predict', {
 });
 ```
 
-1. Lưu file lại.
+3. Lưu file lại.
 
 👉 Giờ thì mở [**http://127.0.0.1:5500**](http://127.0.0.1:5500/) → Web sẽ gọi API tại [**http://127.0.0.1:5000**](http://127.0.0.1:5000/)
 
@@ -255,5 +255,6 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
