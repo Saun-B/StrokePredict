@@ -1,7 +1,4 @@
 # Dự án Đánh giá nguy cơ đột quỵ
-
-## Mục lục:
-
 # 1. Giới thiệu chung
 
 **🚨 Đột quỵ** (hay tai biến mạch máu não) là một tình trạng y tế khẩn cấp, là một trong những nguyên nhân hàng đầu gây tử vong và tàn phế lâu dài trên toàn cầu. Tuy nhiên, phần lớn các ca đột quỵ đều có thể được phòng ngừa nếu các yếu tố nguy cơ được phát hiện và kiểm soát sớm.
@@ -256,4 +253,5 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://pubmed.ncbi.nlm.nih.gov/14718319/](https://pubmed.ncbi.nlm.nih.gov/14718319/)
 - [https://www.ahajournals.org/doi/10.1161/01.str.28.7.1507](https://www.ahajournals.org/doi/10.1161/01.str.28.7.1507)
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
+
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
