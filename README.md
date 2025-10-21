@@ -113,7 +113,7 @@ Người dùng cung cấp một số thông tin sức khỏe cơ bản: tuổi, 
 - Hệ thống cũng tính toán thêm chỉ số BMI bằng công thức:
 
 $$
-BMI = \frac{\text{Cân nặng (kg)}}{\text{Chiều cao)}^2(m)}
+\mathrm{BMI} = \frac{\text{Cân nặng}}{\text{Chiều cao}^2} \quad \text{(đơn vị: kg/m}^2\text{)}
 $$
 
 Đây là chỉ số quan trọng để đánh giá tình trạng thừa cân, một yếu tố làm tăng nguy cơ đột quỵ.
@@ -255,6 +255,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
 
