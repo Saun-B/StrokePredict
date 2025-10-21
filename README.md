@@ -243,7 +243,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 | **Tên thành viên** | **Lớp** | **Mã số sinh viên** | **Công việc chính được phân công** |
 | --- | --- | --- | --- |
 | **Lê Thị Khánh Linh** | K69A-AI2 | 24022384 | Lên kế hoạch, phân công công việc, giám sát tiến độ. Test chức năng và hoàn thiện tài liệu (README.md, Báo cáo). |
-| **Nguyễn Huyền Thương** | K69A-AI2 | 24022462 | **Logic AI (Knowledge Engineer):** Xây dựng bộ luật chuyên gia (rules.json, rules.py) và định nghĩa I/O cho API. |
+| **Nguyễn Huyền Thương** | K69A-AI2 | 24022462 | **Logic AI (Knowledge Engineer):** Xây dựng bộ luật chuyên gia (`rules.json`, `rules.py`) và định nghĩa I/O cho API. |
 | **Nguyễn Quang Sang** | K69A-AI4 | 24022440 | **Coder Web (Fullstack):** Xây dựng API (Backend), thiết kế giao diện (Frontend) và deploy sản phẩm. |
 
 💡 Ngoài ra, trong quá trình phát triển web, mọi người trong nhóm đều tích cực đóng góp ý tưởng để sửa đổi, cải tiến và hoàn thiện sản phẩm.
@@ -255,6 +255,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
 
