@@ -19,7 +19,7 @@ Cốt lõi của dự án là một **Hệ chuyên gia (Rule-Based AI)** đượ
 
 - **Link Demo:** [https://saun-b.github.io/StronkePredict/#intro1](https://saun-b.github.io/StronkePredict/#intro1)
 
-###👇 Hướng dẫn sử dụng web:
+### 👇 Hướng dẫn sử dụng web:
 
 1. Truy cập vào link demo trên.
 2. Trang web sẽ giới thiệu tổng quan về dự án và bệnh lý.
@@ -255,6 +255,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
 
