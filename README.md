@@ -28,7 +28,7 @@ Cốt lõi của dự án là một **Hệ chuyên gia (Rule-Based AI)** đượ
 5. Nhấn nút **"Dự đoán"**.
 6. Hệ thống sẽ trả về kết quả đánh giá nguy cơ (Thấp, Trung bình, Cao) ngay bên dưới.
    
-> **💡 LƯU Ý QUAN TRỌNG KHI DEMO:**
+> **💡 LƯU Ý QUAN TRỌNG KHI TRUY CẬP LINK DEMO:**
 >
 > Máy chủ (Backend) của dự án được triển khai trên nền tảng miễn phí (Render). Nếu sau 15 phút không có ai truy cập, máy chủ sẽ tự động **"ngủ đông"** để tiết kiệm tài nguyên.
 >
@@ -261,6 +261,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
 
