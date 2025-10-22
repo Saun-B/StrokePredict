@@ -32,7 +32,7 @@ Cốt lõi của dự án là một **Hệ chuyên gia (Rule-Based AI)** đượ
 >
 > Máy chủ (Backend) của dự án được triển khai trên nền tảng miễn phí (Render). Nếu sau 15 phút không có ai truy cập, máy chủ sẽ tự động **"ngủ đông"** để tiết kiệm tài nguyên.
 >
-> Do đó, khi bạn bấm nút "Dự đoán" **lần đầu tiên**, có thể mất 10-30 giây để máy chủ "thức dậy". Nếu bạn thấy trang báo lỗi kết nối, **vui lòng chỉ cần nhấn nút "Dự đoán" thêm một lần nữa** là sẽ nhận được kết quả ngay lập tức.
+> Do đó, khi bạn bấm nút "Dự đoán" **lần đầu tiên**, có thể mất 10-30 giây để máy chủ "thức dậy". Nếu bạn thấy trang báo lỗi kết nối, **vui lòng chỉ cần tải lại trang thêm một lần nữa và điền thông tin** là sẽ nhận được kết quả ngay lập tức.
 
 # 3. Kiến trúc & Thuật toán
 
@@ -261,6 +261,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
 
