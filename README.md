@@ -6,7 +6,7 @@
 🎯 Với mục tiêu "phòng bệnh hơn chữa bệnh", dự án **StrokePredict** được xây dựng như một công cụ hỗ trợ cộng đồng. Đây là một ứng dụng web cho phép người dùng:
 
 - **Tìm hiểu thông tin:** Cung cấp kiến thức tổng quan về đột quỵ, các nguyên nhân và phương pháp phòng ngừa.
-- **Đánh giá nguy cơ:** Người dùng nhập vào các chỉ số sức khỏe (như tuổi, giới tính, huyết áp) và thói quen sinh hoạt (hút thuốc, làm việc).
+- **Đánh giá nguy cơ:** Người dùng nhập vào các chỉ số sức khỏe (như tuổi, huyết áp) và thói quen sinh hoạt (hút thuốc, làm việc, tập thể dục).
 - **Nhận kết quả:** Hệ thống sẽ trả về đánh giá về mức độ nguy cơ đột quỵ (Thấp, Trung bình, Cao) để người dùng tham khảo.
 
 Cốt lõi của dự án là một **Hệ chuyên gia (Rule-Based AI)** được xây dựng bằng Python, sử dụng một bộ luật (rules) được định nghĩa sẵn (trong `rules.json`) để phân tích dữ liệu đầu vào và đưa ra dự đoán.
@@ -109,11 +109,11 @@ StrokePredict/
     - `id`: mã số định danh.
     - `condition`: điều kiện logic (ví dụ: `age > 60 and hypertension == 1`).
     - `risk_level`: kết quả nếu điều kiện đúng (High, Medium, Low).
-- Trong dự án này, có tổng cộng **144 luật** được định nghĩa. Chúng đóng vai trò như “kinh nghiệm” của một bác sĩ, nhưng được máy tính đọc hiểu và áp dụng.
+- Trong dự án này, có tổng cộng **149 luật** được định nghĩa. Chúng đóng vai trò như “kinh nghiệm” của một bác sĩ, nhưng được máy tính đọc hiểu và áp dụng.
 
 ### 3.3.2. Dữ liệu đầu vào (Input Data)
 
-Người dùng cung cấp một số thông tin sức khỏe cơ bản: tuổi, giới tính, cân nặng, chiều cao, tình trạng cao huyết áp, bệnh tim, tiểu đường, hút thuốc, thói quen tập luyện.
+Người dùng cung cấp một số thông tin sức khỏe cơ bản: tuổi, cân nặng, chiều cao, tình trạng cao huyết áp, bệnh tim, tiểu đường, hút thuốc, thói quen tập luyện.
 
 - Nếu thiếu dữ liệu, hệ thống yêu cầu người dùng phải nhập tất cả những dữ liệu còn sót.
 - Hệ thống cũng tính toán thêm chỉ số BMI bằng công thức:
@@ -136,7 +136,7 @@ Trong code (file `rules.py`), tiến trình diễn ra như sau:
 
 - Hệ thống nhận dữ liệu từ người dùng qua hàm `evaluate_risk()` (ví dụ tuổi, cân nặng, chiều cao, bệnh nền, thói quen...).
 - Dữ liệu được chuẩn hóa: tính thêm các giá trị phát sinh (chẳng hạn BMI từ cân nặng và chiều cao) và điền mặc định cho chỗ thiếu (ví dụ tuổi mặc định = 30).
-- Sau đó, máy lần lượt kiểm tra 144 luật trong `rules.json`. Mỗi điều kiện IF được tính bằng hàm `eval()` để xem có đúng với dữ liệu hay không.
+- Sau đó, máy lần lượt kiểm tra 149 luật trong `rules.json`. Mỗi điều kiện IF được tính bằng hàm `eval()` để xem có đúng với dữ liệu hay không.
 - Nếu đúng, luật đó được kích hoạt và trả về kết quả gắn sẵn (ví dụ “High risk”). Nếu duyệt hết mà không có luật nào khớp, hệ thống mặc định trả về “Low risk”.
 
 👉 Điều quan trọng cần nhớ: bộ máy suy diễn **không thông minh, không sáng tạo, không tự học**. Nó chỉ là cơ chế so khớp dữ liệu với luật đã có. Vì dùng suy diễn tiến và chiến lược First-Match, kết quả cuối cùng phụ thuộc mạnh vào **độ chính xác của dữ liệu đầu vào** và **cách thiết kế, sắp xếp luật** trong cơ sở tri thức.
@@ -248,7 +248,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 
 | **Tên thành viên** | **Lớp** | **Mã số sinh viên** | **Công việc chính được phân công** |
 | --- | --- | --- | --- |
-| **Lê Thị Khánh Linh** | K69A-AI2 | 24022384 | Lên kế hoạch, phân công công việc, giám sát tiến độ. Test chức năng và hoàn thiện tài liệu (README.md, Báo cáo). |
+| **Lê Thị Khánh Linh** | K69A-AI2 | 24022384 | Lên kế hoạch, phân công công việc, giám sát tiến độ. Test chức năng và hoàn thiện tài liệu (README.md, Báo cáo, Slide). |
 | **Nguyễn Huyền Thương** | K69A-AI2 | 24022462 | **Logic AI (Knowledge Engineer):** Xây dựng bộ luật chuyên gia (`rules.json`, `rules.py`) và định nghĩa I/O cho API. |
 | **Nguyễn Quang Sang** | K69A-AI4 | 24022440 | **Coder Web (Fullstack):** Xây dựng API (Backend), thiết kế giao diện (Frontend) và deploy sản phẩm. |
 
@@ -261,6 +261,7 @@ Các vai trò chính bao gồm **Team Lead** (Quản lý chung và Tài liệu),
 - [https://www.cdc.gov/stroke/risk-factors/index.html](https://www.cdc.gov/stroke/risk-factors/index.html)
 
 - [https://www.stroke.org.uk/stroke/types/risk-factors](https://www.stroke.org.uk/stroke/types/risk-factors)
+
 
 
 
