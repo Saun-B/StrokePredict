@@ -1,15 +1,6 @@
 // Câu hỏi
 const questions = [
   { key: "age", question: "Tuổi của bạn là bao nhiêu?", type: "number" },
-  {
-    key: "gender",
-    question: "Giới tính của bạn?",
-    type: "choice",
-    options: [
-      { label: "Nam", value: "Male" },
-      { label: "Nữ", value: "Female" },
-    ],
-  },
   { key: "height", question: "Chiều cao của bạn (vd: 1,6/1.6 m):", type: "number" },
   { key: "weight", question: "Cân nặng của bạn (kg):", type: "number" },
   {
